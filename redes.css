@@ -1,0 +1,86 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*css da imagem do cabeçalho*/
+nav1 ul li {
+    background-image: url(/img/galaxia.gif);
+    background-repeat: no-repeat;
+    background-position:background-position;
+    }
+/*fim do css da imagem do cabeçalho*/
+
+/*css do cabeçalho*/
+nav {
+    max-width: 960px;
+    mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0) 100%);
+    margin: 0 auto;
+    padding: 42px 0;
+  
+  }
+  
+  nav ul {
+    text-align: center;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+    margin-left: -60%;
+    margin-top: -10%;
+  }
+  
+  nav ul li {
+    display: inline-block;
+  }     
+  
+  nav ul li a {
+    padding: 18px;
+    font-family: "Open Sans";
+    text-transform:uppercase;
+    color: rgba(237, 239, 245, 0.815);
+    font-size: 18px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  nav ul li a:hover {
+    margin-left: 10%;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(253, 8, 8, 0.897);
+  }
+
+/*fim do css do cabeçalho*/
+
+
+
+body{
+    background-color: #090a0c;
+    background-repeat: no-repeat;
+     font-family: sans-serif;
+     font-size: 1em;
+     color: #d6cbe0;
+     margin-left: 35%;
+     margin-top: 2%;
+     justify-content: center;
+ }
+
+ .galery{
+  padding-top: -40%;
+  padding-right: 0%;
+ }
+ .desc{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align:justify;
+    margin-left: 13%;
+    padding-top: 3%;
+    }
+
+.footer{
+    margin-top: 5%;
+    margin-left: 0%;
+}
